@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#notes{
+  display: flex;
+  /* background-color: red; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  
+  
+}
+body{
+  background-image: url(bg.webp);
+
+}
+button{
+  width:100px;
+  height: 30px;
+  margin-top: 10px;
+  background-color:indigo;
+  color:rgb(219, 212, 224);
+  border-radius: 5px;
+  border: none;
+}
+#edit,#delete{
+  margin:10px;
+}
+textarea{
+  height:100px;
+}
+#input{
+  margin-bottom:10px;
+  /* padding: 100px; */
+}
