@@ -8,7 +8,7 @@ export default function Notes() {
   const [DesTitle, setDesTitle] = useState('');
 
   function handleDelete(item) {
-    const deleteList = Notes.filter((note) => note.id !== item.id);
+    const deleteList = Notes.filter((note)=>note.id!==item.id);
     setNotes(deleteList);
   }
 
